@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to hulk-react 👋</h1>
-<a href="https://main.d1lb5gvb8jbdqm.amplifyapp.com/">
+<a href="https://main.d1lb5gvb8jbdqm.amplifyapp.com/" target="_blank">
   <img src="public/images/hulk.png" />
 </a>
 
