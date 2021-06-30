@@ -22,18 +22,6 @@ function App() {
 
   return (<>
     <h1>HULK COMIC BOOKS!</h1>
-
-    {/* <div key={data.id} className='container-comics'>
-      {data && data.comics && data.comics.items.map((comic, i) =>
-        <div key={i} className="comic-books">
-          <a href={data.urls[0].url} target="_blank">
-            <img src={`${data.thumbnail.path}/portrait_fantastic.${data.thumbnail.extension}`} />
-          </a>
-          <h3>{comic.name}</h3>
-          <p>{data.description}</p>
-        </div>
-      )}
-    </div> */}
     <div key={data.id} className='container-comics'>
       {data && data.map((comic, i) =>
         <div key={i} className="comic-books">
@@ -44,8 +32,6 @@ function App() {
         </div>
       )}
     </div>
-
-
   </>)
 }
 
