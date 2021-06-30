@@ -1,25 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
 * {
   margin: 0;
+  background:#008000;
 }
 
 .App {
-  background: #DCE1E3;
+
 }
 
 h1 {
+  font-family: 'Bangers', cursive;
   text-align: center;
-  color: #004E7C;
-  font-size: 3rem;
+  color: #800040;
+  font-size: 5rem;
   padding: 2rem;
 }
 
 h3, h5 {
-  color: 	#B73225;
+  color: 	#33001A;
+  font-family: 'Comic Neue', cursive;
+  padding-top: 1rem;
 }
 
-h3, h5 {
-  color: 	#B73225;
-}
 
 p {
   color: 	#5C5F58;
