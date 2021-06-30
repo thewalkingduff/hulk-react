@@ -10,7 +10,7 @@
   </a>
 </p>
 
-> A React app using State and Effect Hooks to load Hulk comic books from Marvel API.
+> A React app using State and Effect Hooks to load Hulk comic books from Marvel API.  Click on comic book to open a new tab of the book on the offical Marvel website.
 
 ### 🏠 [Homepage](https://main.d1lb5gvb8jbdqm.amplifyapp.com/)
 
