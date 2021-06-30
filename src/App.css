@@ -1,38 +1,56 @@
+* {
+  margin: 0;
+}
+
 .App {
+  background: #DCE1E3;
+}
+
+h1 {
   text-align: center;
+  color: #004E7C;
+  font-size: 3rem;
+  padding: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3, h5 {
+  color: 	#B73225;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3, h5 {
+  color: 	#B73225;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+p {
+  color: 	#5C5F58;
+  padding: 1rem;
+}
+
+img {
+  padding-top: 1rem;
+}
+
+#headline {
+  display: block;
+}
+
+.container-comics {
+  padding: 2rem;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.comic-books {
+  cursor: pointer;
+  text-align: center;
+  padding: 1rem;
+  /* display: flex;
+  justify-content: space-evenly; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.zone {
+ 
 }
